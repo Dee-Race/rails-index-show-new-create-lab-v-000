@@ -1,5 +1,3 @@
-class Coupon
-  def to_s
-    self.coupon_code + " " + self.store
-  end
+class Coupon < ActiveRecord::Base
+
 end

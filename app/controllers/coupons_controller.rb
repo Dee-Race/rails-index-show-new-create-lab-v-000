@@ -8,8 +8,4 @@ class CouponsController < ApplicationController
     redirect_to coupon_path(@coupons)
   end
 
-
-
-
-
 end
